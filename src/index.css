@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background-color: #07182d;
+}
+
 /* Animação Premium para todo o site (Desktop & Mobile) */
 @layer utilities {
   .reveal-on-scroll {
