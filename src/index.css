@@ -1,12 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  color-scheme: light dark;
+  color-scheme: dark; /* Força o navegador a tratar o site sempre como modo escuro executivo */
 }
 
 html,
 body {
   background-color: #07182d;
+}
+
+/* Estilo personalizado quando o utilizador seleciona o texto (fica com tom dourado) */
+::selection {
+  background-color: #C5A059;
+  color: #051222;
 }
 
 /* Animação Premium para todo o site (Desktop & Mobile) */
